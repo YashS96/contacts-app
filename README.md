@@ -85,5 +85,6 @@ A lot of functionalities should have been added, but due to certain constraints 
 3. Data Storage: Using a permanent store such as mongoDb instead of reading data from a Json file.
 
 4. Improvement of overall front-end design including more validations.
-
+  
 5. Logging also needs to be introduced.
+
