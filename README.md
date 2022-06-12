@@ -49,7 +49,7 @@ The Application back-end Runs on **localhost:8000**
 
 #### Front-End Components
 
-1. **Contacts** Component : This Component displays the contact List. This Component gets the data from parent component.    ***ContactCard*** is a supporting Componenets.
+1. **Contacts** Component : This Component displays the contact List. This Component gets the data from parent component.  ***ContactCard*** is a supporting Componenets.
 
 2. **History** Component : Displays a list of people to whom message was sent.
   
@@ -85,5 +85,6 @@ A lot of functionalities should have been added, but due to certain constraints 
 3. Data Storage: Using a permanent store such as mongoDb instead of reading data from a Json file.
 
 4. Improvement of overall front-end design including more validations.
-
+  
 5. Logging also needs to be introduced.
+
