@@ -49,7 +49,7 @@ The Application back-end Runs on **localhost:8000**
 
 #### Front-End Components
 
-1. **Contacts** Component : This Component displays the contact List. This Component gets the data from parent component.***ContactCard*** is a supporting Componenets.
+1. **Contacts** Component : This Component displays the contact List. This Component gets the data from parent component.    ***ContactCard*** is a supporting Componenets.
 
 2. **History** Component : Displays a list of people to whom message was sent.
   
@@ -73,11 +73,12 @@ The Application back-end Runs on **localhost:8000**
 
 **Twilio** : Refer to https://www.twilio.org/ to understand the concepts of Twilio
 
+
 ## Improvements
 
 A lot of functionalities should have been added, but due to certain constraints I was unable to add them:
 
-1. Tests: unit tests for front and beck end code, including integration via mocking frameworks.
+1. Tests: unit tests for front and back end code, including integration via mocking frameworks.
 
 2. Sacling: Scaling web server capability via cluster or child_process,modules.
 
