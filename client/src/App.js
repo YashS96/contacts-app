@@ -1,23 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
+import {Route, Routes} from 'react-router'
+import React, { useState } from 'react'
+import Header from './components/header/Header.js'
+import Home from './components/Home.js'
+import Contacts from './components/contacts/Contacts.js'
+import History from './components/history/History.js'
+
+
 
 function App() {
+
+  const [history, setHistory] = useState([]);
+
+  let populateHistory = (entry) => {
+    setHistory([entry, ...history])
+  }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header/>
+      <Routes>
+        <Route path='/' element={<Home/>}/>
+        <Route path='Contacts' element={<Contacts method={populateHistory}/>}/>
+        <Route path='History' element={<History list={history}/>}/>
+      </Routes>
     </div>
   );
 }
