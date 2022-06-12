@@ -73,4 +73,14 @@ The Application back-end Runs on **localhost:8000**
 
 **Twilio** : Refer to https://www.twilio.org/ to understand the concepts of Twilio
 
+## Improvements
 
+A lot of functionalities should have been added, but due to certain constraints I was unable to add them:
+
+1. Tests: unit tests for front and beck end code, including integration via mocking frameworks.
+
+2. Sacling: Scaling web server capability via cluster or child_process,modules.
+
+3. Data Storage: Using a permanent store such as mongoDb instead of reading data from a Json file.
+
+4. Improvement of overall front-end design including more validations.
