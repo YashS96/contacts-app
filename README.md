@@ -3,7 +3,7 @@ A web app for maintaining contacts that have functionality to send an OTP.
 
 ## What is the use of this Repo
 
-This Project is a Simple web App (ReactJS + NodeJS) which demonstrates the following:
+This Project is a simple web App (ReactJS + NodeJS) which demonstrates the following:
 1. Creating a basic frontend via React
 2. Making HTTP calls with axios
 3. Sending OTP to verified numbers via Twilio
