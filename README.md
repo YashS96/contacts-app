@@ -28,7 +28,7 @@ npm install -g create-react-app
 - Clone the project into local:
 
 ```bash
-- git clone https://github.com/YashS96/contacts-app.git
+ git clone https://github.com/YashS96/contacts-app.git
 ```
 - Install all the npm packages. Go into the project folder and type the following command to install all npm packages
 
