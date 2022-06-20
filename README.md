@@ -4,11 +4,11 @@ A web app for maintaining contacts that have functionality to send an OTP.
 ## What is the use of this Repo
 
 This Project is a simple web App (ReactJS + NodeJS) which demonstrates the following:
-1. Creating a basic frontend via React
-2. Making HTTP calls with axios
-3. Sending OTP to verified numbers via Twilio
-4. Using MUI along with React
-5. Making a basic NodeJS backend
+- Creating a basic frontend via React
+- Making HTTP calls with axios
+- Sending OTP to verified numbers via Twilio
+- Using MUI along with React
+- Making a basic NodeJS backend
 
 ## Prerequisites
 
@@ -25,43 +25,42 @@ npm install -g create-react-app
 
 ## Cloning and Running the Application in local
 
-Clone the project into local:
+- Clone the project into local:
 
 ```bash
-git clone https://github.com/YashS96/contacts-app.git
+- git clone https://github.com/YashS96/contacts-app.git
 ```
-Install all the npm packages. Go into the project folder and type the following command to install all npm packages
+- Install all the npm packages. Go into the project folder and type the following command to install all npm packages
 
 ```bash
 npm install
 ```
-
-In order to run the application Type the following command on both server and client side terminals
+- In order to run the application Type the following command on both server and client side terminals
 
 ```bash
 npm start
 ```
 
-The Application front-end Runs on **localhost:3000**
-The Application back-end Runs on **localhost:8000**
+- The Application front-end runs on **localhost:3000**
+- The Application back-end runs on **localhost:8000**
 
 ## Application design
 
 #### Front-End Components
-
-1. **Contacts** Component : This Component displays the contact List. This Component gets the data from parent component.  ***ContactCard*** is a supporting Componenets.
-
-2. **History** Component : Displays a list of people to whom message was sent.
   
-3. **Home** Component : This Component is the landing page for the web app.
+- **Contacts** Component : This Component displays the contact List. This Component gets the data from parent component.  ***ContactCard*** is a supporting Componenets.
+
+- **History** Component : Displays a list of people to whom message was sent.
+  
+- **Home** Component : This Component is the landing page for the web app.
 
 #### HTTP client and Server
 
 **axios** library is used to make HTTP Calls to the backend endpoints:
 
-  http://localhost:8000/getContacts/
+ - http://localhost:8000/getContacts/
 
-  http://localhost:8000/sendMessage/   
+ - http://localhost:8000/sendMessage/   
 
 ## Resources
 
@@ -78,13 +77,13 @@ The Application back-end Runs on **localhost:8000**
 
 A lot of functionalities should have been added, but due to certain constraints I was unable to add them:
 
-1. Tests: unit tests for front and back end code, including integration via mocking frameworks.
+- Tests: unit tests for front and back end code, including integration via mocking frameworks.
 
-2. Sacling: Scaling web server capability via cluster or child_process,modules.
+- Sacling: Scaling web server capability via cluster or child_process,modules.
 
-3. Data Storage: Using a permanent store such as mongoDb instead of reading data from a Json file.
+- Data Storage: Using a permanent store such as mongoDb instead of reading data from a Json file.
 
-4. Improvement of overall front-end design including more validations.
+- Improvement of overall front-end design including more validations.
   
-5. Logging also needs to be introduced.
+- Logging also needs to be introduced.
 
